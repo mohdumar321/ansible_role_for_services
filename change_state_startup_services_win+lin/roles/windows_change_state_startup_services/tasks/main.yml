@@ -1,0 +1,12 @@
+---
+
+# Module to Change the state and startup mode of services
+# specify the variable inside the main.yml in vars folder as per the requirement 
+
+
+   - name: Change state and Startup mode of Windows services
+     win_service: 
+        name: "{{item}}"
+        start_mode: "{{service_startupmode}}"
+        state: "{{service_state}}"
+     with_items: "{{service_names}}"

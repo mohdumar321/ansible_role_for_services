@@ -1,0 +1,39 @@
+---
+
+###############################################################
+#Specify the start_mode from the following methods            #
+                                                              #
+service_names: 
+ - pla
+ - SNMP Trap
+ - MpsSvc
+ - Vmicrdv
+ - Themes
+ 
+###############################################################
+
+
+###############################################################
+#Specify the start_mode from the following methods            #
+                                                              #
+# auto                                                        #
+# delayed                                                     #
+# disabled                                                    #
+# manual                                                      #
+start_mode: auto
+###############################################################
+
+
+
+
+###############################################################
+#Specify the state from the following methods                 #                                                             #
+                                                              #
+#absent                                                       #
+#paused                                                       #
+#started                                                      #
+#stopped                                                      #      
+#restarted                                                    #
+state: restarted
+###############################################################
+

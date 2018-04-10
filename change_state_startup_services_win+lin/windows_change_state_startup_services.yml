@@ -1,0 +1,5 @@
+---
+- hosts: all
+  roles:
+     - windows_change_state_startup_services
+    

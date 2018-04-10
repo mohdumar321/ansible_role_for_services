@@ -1,0 +1,35 @@
+---
+
+###############################################################
+#Specify the services names            #
+                                                              #
+service_names:
+ - httpd
+ - vsftpd
+ - postfix 
+ - ntpd
+###############################################################
+
+
+###############################################################
+#Specify the enable method from the following options            #
+                                                              #
+# yes                                                         #
+# no                                                          #
+
+service_enable_mode: yes
+###############################################################
+
+
+
+
+###############################################################
+#Specify the state from the following methods                 #                                                             #
+                                                              #
+#reloaded                                                     #
+#restarted                                                    #
+#running                                                      #
+#started                                                      #
+#stopped                                                      #
+state: restarted
+###############################################################
