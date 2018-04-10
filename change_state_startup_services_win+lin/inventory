@@ -1,11 +1,1 @@
-[tai_linux]
-#127.0.0.1
-#212.159.234.18
-192.168.1.139
-[tai_linux:vars]
-ansible_ssh_user=root
-ansible_ssh_pass=Canopy1!
-ansible_ssh_port=22
-ansible_connection=ssh
-host_key_checking=false
 
